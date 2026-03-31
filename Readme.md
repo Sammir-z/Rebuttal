@@ -1,6 +1,21 @@
+<img src=".\fig_1(a).png" alt="fig_1(a)" style="zoom:5%;" />
+
+(a) Adaptive-Margin Modality Identification
+
+<img src=".\fig_1(b).png" alt="fig_1(a)" style="zoom:25%;" />
+
+
+(b) Restoration Strategy
+
+**Figure 1** (a)Adaptive-Margin Modality Identification, where left is quantified modality laziness via incorrectness and uncertainty, and right is a soft margin $\gamma$ used to distinguish dominated (white) vs. lazy (black) modality by considering ambiguous samples (gray).(b)Restoration Strategy: The framework **epoch-level periodically alternates** between full joint optimization and adaptive masking. Masking (white blocks) decouples the gradient flow of dominated modalities to force the exploitation of lazy ones. The objects with the **same shape represent the same instance** with features from different modalities.
+
+<br/><br/>
+
+
+
 **Table 1.**  Results(%) of unimodal performance.
 
-| **Dataset **    | **Concat** | **Random** | **OGM**   | **OPM**   | **MLA**   | **Resample** | **Remix** | **AMST_joint** | **AMRe (Ours)** |
+| **Datase**    | **Concat** | **Random** | **OGM**   | **OPM**   | **MLA**   | **Resample** | **Remix** | **AMST_joint** | **AMRe (Ours)** |
 | --------------- | ---------- | ---------- | --------- | --------- | --------- | ------------ | --------- | -------------- | --------------- |
 | **CREMA-D (V)** | 68.95      | 60.89      | **69.22** | 67.33     | 58.87     | 68.95        | 64.11     | 58.36          | 66.13           |
 | **CREMA-D (A)** | 63.17      | 63.84      | 62.10     | **65.05** | 65.34     | 63.31        | 58.47     | 64.27          | 61.96           |
@@ -13,7 +28,7 @@
 | **IEMOCAP (T)** | 58.14      | 60.79      | 60.36     | -         | 57.40     | 59.47        | 58.73     | 53.80          | **61.69**       |
 
 
-
+<br/><br/>
 **Table 5**.  Result(\%) of different laziness evaluation metrics. Specifically, CE Loss and Brier Score are utilized to measure incorrectness, whereas KL divergence and Entropy are employed to evaluate uncertainty.
 
 |     Method      |    AVE    |   MVSA    |  IEMOCAP  |
@@ -32,14 +47,3 @@
 
 
 
-<img src=".\fig_1(a).png" alt="fig_1(a)" style="zoom: 25%;" />
-
-(a) Adaptive-Margin Modality Identification
-
-
-
-![fig_1(b)](.\fig_1(b).png)
-
-(b) Restoration Strategy
-
-**Figure 1** (a)Adaptive-Margin Modality Identification, where left is quantified modality laziness via incorrectness and uncertainty, and right is a soft margin $\gamma$ used to distinguish dominated (white) vs. lazy (black) modality by considering ambiguous samples (gray).(b)Restoration Strategy: The framework **epoch-level periodically alternates** between full joint optimization and adaptive masking. Masking (white blocks) decouples the gradient flow of dominated modalities to force the exploitation of lazy ones. The objects with the **same shape represent the same instance** with features from different modalities.

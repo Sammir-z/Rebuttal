@@ -30,7 +30,7 @@
 
 <br/><br/>
 
-**Table 3.** Analysis of masking decisions on different sample types . “Inc” and “Unc” denote traditional single-metric masking based on incorrectness and uncertainty, respectively. $m_j$ is masking modality $j$, $None$ is not masking modality.$c^{m_j}_i$ is calculation Eq. 6. $u^{m_j}_i$ is calculation Eq.7
+**Table 3.** Analysis of masking decisions on different sample types . “Inc” and “Unc” denote traditional single-metric masking based on incorrectness and uncertainty, respectively. $m_j$ is masking modality $j$, $None$ is not masking modality. $c^{m_j}_i$ is calculation Eq. 6. $u^{m_j}_i$ is calculation Eq.7
 
 | Sample Type | $m_1$ Prob. | $m_2$ Prob. | $c^{m_1}_i$ | $c^{m_2}_i$ | $u^{m_1}_i$ | $u^{m_2}_i$ | AMre   | Inc   | Unc   |
 | ----------- | ----------- | ----------- | :---------: | :---------: | :---------: | :---------: | ------ | ----- | ----- |

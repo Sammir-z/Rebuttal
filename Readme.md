@@ -1,4 +1,4 @@
-<img src=".\fig_1(a).png" alt="fig_1(a)" style="zoom:5%;" />
+<img src=".\fig_1(a).png" alt="fig_1(a)" style="zoom:25%;" />
 
 (a) Adaptive-Margin Modality Identification
 

@@ -29,6 +29,17 @@
 
 
 <br/><br/>
+
+**Table 3.** Analysis of masking decisions on different sample types . “Inc” and “Unc” denote traditional single-metric masking based on incorrectness and uncertainty, respectively. $m_j$ is masking modality $j$, $None$ is not masking modality.$c^{m_j}_i$ is calculation Eq. 6. $u^{m_j}_i$ is calculation Eq.7
+
+| Sample Type | $m_1$ Prob. | $m_2$ Prob. | $c^{m_1}_i$ | $c^{m_2}_i$ | $u^{m_1}_i$ | $u^{m_2}_i$ | AMre   | Inc   | Unc   |
+| ----------- | ----------- | ----------- | :---------: | :---------: | :---------: | :---------: | ------ | ----- | ----- |
+| Ambiguous   | 0.8816      | 0.8677      |   0.5199    |   0.4801    |   0.6034    |   0.3966    | $None$ | $m_2$ | $m_2$ |
+| Noise 1     | 0.2152      | 0.0355      |    0.001    |   0.9999    |   0.9988    |    0.012    | $m_2$  | $m_1$ | $m_2$ |
+| Noise 2     | 0.0938      | 0.6330      |   0.9999    |   0.0001    |   0.3248    |   0.6752    | $m_1$  | $m_2$ | $m_2$ |
+
+<br/><br/>
+
 **Table 5**.  Result(\%) of different laziness evaluation metrics. Specifically, CE Loss and Brier Score are utilized to measure incorrectness, whereas KL divergence and Entropy are employed to evaluate uncertainty.
 
 |     Method      |    AVE    |   MVSA    |  IEMOCAP  |
